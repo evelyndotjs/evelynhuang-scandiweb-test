@@ -5,8 +5,56 @@
     margin: 0;
 }
 
+body {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
 /* ---------- CATEGORY.JS --------- */
 
 /* --------- PRODUCT.JS --------- */
 
 /* --------- CART.JS --------- */
+
+/* --------- 404.JS --------- */
+
+/* .notfound-container,
+.notfound-text {
+    position: fixed;
+
+}
+
+.notfound-container{
+    background-color: ;
+    width: 60%;
+    height: 300px;
+}
+
+.notfound-text {
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+} */
+
+.notfound-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.notfound-title {
+    color: #5ECE7B;
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.notfound-text {
+    color: #1D1F22;
+    font-size: 1rem;
+}
+
+.cryface {
+    font-size: 40px;
+}
